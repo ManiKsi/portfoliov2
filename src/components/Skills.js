@@ -9,7 +9,6 @@ import {
   Firebase,
   Framer,
   Github,
-  Html,
   Lambda,
   MangoDb,
   MySql,
@@ -20,8 +19,6 @@ import {
   StyledComponent,
   Tailwind,
   Wordpress,
-  Xd,
-  Xd2,
 } from "./AllSvgs";
 import Footer from "./subcomponents/Footer";
 import Navbar from "./subcomponents/Navbar";

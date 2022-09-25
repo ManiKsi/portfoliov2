@@ -1,15 +1,13 @@
-import styled, { ThemeProvider } from "styled-components";
-
 import "./App.css";
 import About from "./components/About";
 import Home from "./components/Home";
 import Work from "./components/Work";
-import Loading from "./components/Loading";
 import GlobalStyles from "./globalStyles";
-import Navbar from "./components/subcomponents/Navbar";
 import Skills from "./components/Skills";
 import { Route, Routes, useLocation } from "react-router-dom";
-import { motion, AnimatePresence } from "framer-motion";
+import { AnimatePresence } from "framer-motion";
+import styled from "styled-components";
+
 const Container = styled.div`
   height: 93vh;
   width: 100vw;

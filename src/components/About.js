@@ -215,7 +215,7 @@ const About = () => {
         },
       });
     }
-  }, [isInView, isInView1]);
+  }, [animation, animationLeft, animationRight, isInView, isInView1]);
 
   return (
     <>
